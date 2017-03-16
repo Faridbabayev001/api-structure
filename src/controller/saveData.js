@@ -2,7 +2,6 @@ import mongoose from 'mongoose';
 import { Router } from 'express';
 import bodyParser from 'body-parser';
 import unirest from "unirest";
-import xml2json from "xml-to-json";
 import parser from "xml2json";
 export default({ config, db }) => {
   let api = Router();
